@@ -1,0 +1,6 @@
+#!name=云闪付
+#!desc=自建
+
+[Rule]
+# > 云闪付
+URL-REGEX,^https?:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
