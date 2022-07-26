@@ -1,0 +1,9 @@
+!name=vpns
+#!desc=vpns vip.
+#!system=ios
+
+[Script]
+vpn = type=http-response,pattern=^http://arbusu.com/vpn/countrylist,requires-body=1,max-size=0,script-path=https://github.com/ZCCeng/surge/raw/main/vpn.js
+
+[MITM]
+hostname = %APPEND% arbusu.com
