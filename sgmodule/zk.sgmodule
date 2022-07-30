@@ -13,6 +13,6 @@
 ^https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/ - reject
 ^https://pangolin.snssdk.com/api/ad/union/sdk/get_ads/ - reject
 ^http://p26-be-pack-sign.pglstatp-toutiao.com/ad-app-package/ - reject
-
+https://gdfp.gifshow.com/rest/infra/gdfp/a/q?sign= - reject
 [MITM]
-hostname = %APPEND% api-access.pangolin-sdk-toutiao.com, adim.pinduoduo.com, p6-be-pack-sign.pglstatp-toutiao.com, v2.gdt.qq.com, win.gdt.qq.com, p3-be-pack-sign.pglstatp-toutiao.com, mi.gdt.qq.com, sf3-fe-tos.pglstatp-toutiao.com, pangolin.snssdk.com, p26-be-pack-sign.pglstatp-toutiao.com
+hostname = %APPEND% api-access.pangolin-sdk-toutiao.com, adim.pinduoduo.com, p6-be-pack-sign.pglstatp-toutiao.com, v2.gdt.qq.com, win.gdt.qq.com, p3-be-pack-sign.pglstatp-toutiao.com, mi.gdt.qq.com, sf3-fe-tos.pglstatp-toutiao.com, pangolin.snssdk.com, p26-be-pack-sign.pglstatp-toutiao.com, gdfp.gifshow.com
