@@ -1,0 +1,17 @@
+#!name=zk助手
+#!desc=去广告
+
+
+[URL Rewrite]
+^https://api-access.pangolin-sdk-toutiao.com/api/ad/ - reject
+^https://adim.pinduoduo.com/i/toutiao?creativeid= - reject
+^http://p6-be-pack-sign.pglstatp-toutiao.com/ad-app-package/ - reject
+^https://v2.gdt.qq.com/gdt_stats.fcg?viewid= - reject
+^https://win.gdt.qq.com/win_notice.fcg?adx_id= - reject
+^http://p3-be-pack-sign.pglstatp-toutiao.com/ad.union.api/ - reject
+^https://mi.gdt.qq.com/gdt_mview.fcg?posid= - reject
+^https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/ - reject
+^https://pangolin.snssdk.com/api/ad/union/sdk/get_ads/ - reject
+
+[MITM]
+hostname = %APPEND% api-access.pangolin-sdk-toutiao.com, adim.pinduoduo.com, p6-be-pack-sign.pglstatp-toutiao.com, v2.gdt.qq.com, win.gdt.qq.com, p3-be-pack-sign.pglstatp-toutiao.com, mi.gdt.qq.com, sf3-fe-tos.pglstatp-toutiao.com, pangolin.snssdk.com, 
